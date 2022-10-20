@@ -5,6 +5,11 @@ VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFPumpService", "WCFPumpService\WCFPumpService.csproj", "{A90AAEEC-DC9A-4C3D-99CC-193E140D5536}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PumpClient", "PumpClient\PumpClient.csproj", "{57F67C66-2B93-4DCD-B7F5-87E3AF03749D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A90AAEEC-DC9A-4C3D-99CC-193E140D5536} = {A90AAEEC-DC9A-4C3D-99CC-193E140D5536}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +20,10 @@ Global
 		{A90AAEEC-DC9A-4C3D-99CC-193E140D5536}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A90AAEEC-DC9A-4C3D-99CC-193E140D5536}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A90AAEEC-DC9A-4C3D-99CC-193E140D5536}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57F67C66-2B93-4DCD-B7F5-87E3AF03749D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57F67C66-2B93-4DCD-B7F5-87E3AF03749D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57F67C66-2B93-4DCD-B7F5-87E3AF03749D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57F67C66-2B93-4DCD-B7F5-87E3AF03749D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
